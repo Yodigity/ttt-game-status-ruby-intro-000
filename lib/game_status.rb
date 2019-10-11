@@ -35,7 +35,7 @@ end
 
 def full?(board)
   full == true
-  for space in board
+  for space in board do
     if space == "X" || space == "O"
       next
     else
