@@ -18,7 +18,7 @@ WIN_COMBINATIONS =
 
 
 def win?(board)
-  for win_combo in WIN_COMBINATIONS
+  for each win_combo in WIN_COMBINATIONS
 
     win_index_1 = win_combo[0]
     win_index_2 = win_combo[1]
@@ -27,7 +27,7 @@ def win?(board)
 
     if board[win_index_1] == "X" && board[win_index_2] == "X" && board[win_index_3] == "X"
       return win_combo
-    end
+    else
+      false
   end
-  return false
 end
