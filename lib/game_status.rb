@@ -17,7 +17,7 @@ WIN_COMBINATIONS =
   ]
 
 
-def win?(board)
+def won?(board)
   for win_combo in WIN_COMBINATIONS
 
     win_index_1 = win_combo[0]
