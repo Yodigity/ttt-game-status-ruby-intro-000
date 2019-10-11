@@ -41,10 +41,8 @@ def full?(board)
       full = false
       return full
     end
-
-    return full
-
   end
+  return full
 end
 
 def draw?(board)
@@ -60,7 +58,6 @@ def over?
     true
   else
     false
-
   end
 end
 
