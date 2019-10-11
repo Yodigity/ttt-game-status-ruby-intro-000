@@ -44,13 +44,13 @@ def full?(board)
     return full
 
   end
+end
 
 def draw?(board)
   if full? && !win?
     true
   else
     false
-
   end
 
 end
@@ -68,5 +68,4 @@ def winner(board)
   if win?
     return board[win_index_1]
   end
-
 end
