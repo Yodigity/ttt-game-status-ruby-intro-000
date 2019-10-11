@@ -63,7 +63,7 @@ def over?
 
   end
 
-  def winner?(board)
+  def winner(board)
     if win?
       return board[win_index_1]
 
