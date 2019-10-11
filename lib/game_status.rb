@@ -31,7 +31,7 @@ def won?(board)
     elsif
       (board[win_index_1] == "O" && board[win_index_2] == "O" && board[win_index_3] == "O")
       return win_combo
-       
+
     end
   end
   return false
