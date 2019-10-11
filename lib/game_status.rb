@@ -40,5 +40,5 @@ def full?(board)
     else
       full = false
       return full
-    
+
   end
