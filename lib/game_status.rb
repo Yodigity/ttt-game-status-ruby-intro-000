@@ -38,7 +38,7 @@ def won?(board)
 end
 
 def full?(board)
-  full == true
+  full = true
   for space in board do
     if space == "X" || space == "O"
       next
