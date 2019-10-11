@@ -31,3 +31,14 @@ def win?(board)
       false
   end
 end
+
+def full?(board)
+  full == true
+  for each space in board
+    if space == "X" || space == "O"
+      continue
+    else
+      full = false
+      return full
+    
+  end
