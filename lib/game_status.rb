@@ -31,4 +31,3 @@ def win?(board)
   end
   return false
 end
-    
